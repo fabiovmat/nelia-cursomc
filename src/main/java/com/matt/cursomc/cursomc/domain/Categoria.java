@@ -20,8 +20,14 @@ public class Categoria implements Serializable {
   private String nome;
 
 
-  
+   
+  public Categoria() {
+  }
+
+
+
   public Categoria(Integer id, String nome) {
+
     this.id = id;
     this.nome = nome;
   }
